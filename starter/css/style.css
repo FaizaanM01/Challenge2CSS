@@ -9,6 +9,20 @@ body {
   line-height: 1.5;
 }
 
+.container{
+
+  
+  display: grid;
+  
+
+  grid-template-rows: 100px 100px 100px;
+  row-gap:  50px;
+justify-content: first baseline;
+}
+
+
+
+
 h1,
 h2,
 h3,
@@ -21,3 +35,5 @@ h6 {
 p {
   margin: 0;
 }
+
+
