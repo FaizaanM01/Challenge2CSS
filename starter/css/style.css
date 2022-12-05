@@ -8,7 +8,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 
-  
+background-image: url(https://th.bing.com/th/id/R.274d77a86be0980773bf9b0a4b5800a9?rik=lgP39Xgr2pLgdQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f8%2f1%2f489068.jpg&ehk=WwsItfEC3pz%2bNxtdjzhzfUKX6UeC95Vjgzf%2bwKV4wSE%3d&risl=&pid=ImgRaw&r=0);
 }
 
 .container{
@@ -17,7 +17,7 @@ text-indent: 110px;
   font-size: 150%;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: grid;
-
+color: lightblue;
 
  
 
@@ -48,6 +48,7 @@ display: grid;
 row-gap: 50px;
 grid-template-rows: 50px;
 justify-content: end;
+color: lightblue;
 
 
 }
@@ -79,7 +80,7 @@ padding: 10px;
 
 .v1{
 
-  border-left: 6px solid black;
+  border-left: 6px solid lightskyblue;
   height: 150px;
   position: absolute;
   left: 23%;
@@ -186,5 +187,16 @@ grid-row: span 2;
   padding-right: 20px;
 
  
+
+}
+
+.img1{
+
+ 
+ height: 160px;
+ position: absolute;
+ left: 23%;
+ margin-left: -3px;
+ top: 6px;
 
 }
