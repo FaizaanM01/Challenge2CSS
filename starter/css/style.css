@@ -15,7 +15,7 @@ body {
 
 text-indent: 110px;
   font-size: 150%;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: grid;
 
 
@@ -61,7 +61,8 @@ font-size: large;
 .i1{
 
   font-size: small;
-color: lightseagreen;
+color: black;
+padding: 10px;
 
 
 
@@ -154,3 +155,36 @@ grid-row: span 2;
   padding: 20px;
 }
   
+.contacts {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  background-color: aqua;
+  border:  solid;
+
+}
+
+.contacts li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.text-block {
+  max-width: 100%;
+  height: auto;
+  
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+ 
+
+}
